@@ -16,7 +16,7 @@ const PORT = process.env.PORT || 5000;
 // Database connection
 connectDB();
 
-io.origins(["https://videochat-frontend.vercel.app/"]);
+// io.origins(["https://videochat-frontend.vercel.app/"]);
 
 // Middleswares
 app.use(express.json());
