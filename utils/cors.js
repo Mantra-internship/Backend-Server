@@ -1,6 +1,6 @@
 const corsOptions = {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://11-mantras-q9a44lod0-gala77.vercel.app/",
     methods: ["GET", "POST"],
     credentials: true,
   },
