@@ -1,8 +1,7 @@
 const corsOptions = {
   cors: {
     origin: "*",
-    methods: ["GET", "POST"],
-    credentials: true,
+    methods: ["GET", "POST"]
   },
 };
 
