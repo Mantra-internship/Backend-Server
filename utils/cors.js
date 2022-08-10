@@ -1,6 +1,6 @@
 const corsOptions = {
   cors: {
-    origin: "https://videochat-frontend.vercel.app/",
+    origin: "*",
     methods: ["GET", "POST"],
     credentials: true,
   },
